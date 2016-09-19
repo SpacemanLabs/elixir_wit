@@ -35,7 +35,7 @@ defmodule Wit.Mixfile do
   defp deps do
     [
       {:poison, "~> 2.0"},
-      {:httpotion, "~> 2.2.0"},
+      {:httpotion, "~> 3.0.0"},
       {:uuid, "~> 1.1"},
       {:inch_ex, ">= 0.0.0", only: :docs},
 
